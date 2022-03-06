@@ -1,5 +1,6 @@
+import { FC } from 'react';
 
-export const DarkLoayout = ({ children }) => {
+export const DarkLoayout: FC = ({ children }) => {
   return (
     <div style={{
       backgroundColor: 'rgba(0,0,0,0.3)',
